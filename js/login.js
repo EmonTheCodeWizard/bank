@@ -14,8 +14,8 @@ document.getElementById("btn-submit").addEventListener("click", function () {
     // DANGER: DO NOT VERIFY email password on the client side
     // Step 4: verify email and password check either valid user or not!
     if (email === "amianik5566@gmail.com" && pass === "amianik5566") {
-        console.log("valid user");
+        window.location.href = 'bank.html';
     } else{
-        console.log("invalid User");
+        alert('You Put Wrong Credentials')
     }
 })
